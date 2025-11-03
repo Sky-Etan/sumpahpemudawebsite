@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sumpah Pemuda</title>
+    <style>
+        header {
+            background-color: red;
+            text-align: center;
+            padding: 35px 0;
+        }
+        h1 {
+            font-size: 40px;
+            color:white;
+            font-family:'Trebuchet MS';
+        }
+        h2 {
+            font-size: 29px;
+            color: white;
+            font-family: 'Trebuchet MS';
+        }
+        .characters {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .character {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            background-color: #f9f9f9;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease;
+            width: 250px;
+        }
+        .character:hover {
+            transform: scale(1.05);
+        }
+        .character img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .character h3 {
+            color: #333;
+            font-family: 'Cambria', serif;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> 🚩 Tokoh Sumpah Pemuda 🚩</h1>
+        <h2>Oleh: 
+        <h2>Mattthew 8A/23</h2>
+        <h2>Sky 8A/30</h2>
+    </header>
+
+    <section class="characters">
+        <a href="amir.html" class="character">
+            <img src="amir.jpeg" alt="Amir Syarifuddin">
+            <h3>Amir Syarifuddin</h3>
+        </a>
+        <a href="sekarmadji.html" class="character">
+            <img src="sek.jpeg" alt="Sekarmadji Maridjan Kartosuwirjo">
+            <h3>Sekarmadji Maridjan Kartosuwirjo</h3>
+        </a>
+        <a href="johanes.html" class="character">
+            <img src="download (1).jpeg" alt="Johannes Leimena">
+            <h3>Johannes Leimena</h3>
+        </a>
+    </section>
+</body>
+</html>
